@@ -31,10 +31,10 @@ public class ContaTerminal {
             //String resposta = scanner.nextLine().toLowerCase();
 
             System.out.println("\n Escolha uma opção: ");
-            System.out.println("1 - Deposito");
-            System.out.println("2 - Saque");
-            System.out.println("3 - Saldo");
-            System.out.println("4 - Sair");
+            System.out.println(" 1 - Deposito");
+            System.out.println(" 2 - Saque");
+            System.out.println(" 3 - Saldo");
+            System.out.println(" 4 - Sair");
             System.err.print("Opção: ");
             int opcao = scanner.nextInt();
             
