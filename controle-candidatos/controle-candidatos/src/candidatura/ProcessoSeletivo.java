@@ -14,7 +14,7 @@ public class ProcessoSeletivo {
         analisarCandidato(2000.0);/* */
 
     }
-    static void entrandoEmContato(String Candidato) {
+    static void entrandoEmContato(String candidato) {
         int tentativasRealizadas = 1;
         boolean continuarTentando = true;
         boolean atendeu=false;
@@ -22,13 +22,13 @@ public class ProcessoSeletivo {
             atendeu= atender();
             continuarTentando = !atendeu;
             if (continuarTentando)
-                tentantivasRealizadas++;
+                tentativasRealizadas++;
             else
                 System.out.println("Contato realizado com sucesso");
         }while(continuarTentando && tentativasRealizadas<3);
         if(atendeu)
-            System.out.println("Conseguimos contato com" + candidato + " na " + tentativasRealizadas + " tentativa");
-        else System.out.println("Não conseguimos contato com " candidato + " número maximo de tentativas " + tentativasRealizadas);
+            System.out.println("Conseguimos contato com " + candidato + " na " + tentativasRealizadas + " tentativa");
+        else System.out.println("Não conseguimos contato com " + candidato + " número maximo de tentativas " + tentativasRealizadas);
     }
     // metodo auxiliar
         static boolean atender() {
