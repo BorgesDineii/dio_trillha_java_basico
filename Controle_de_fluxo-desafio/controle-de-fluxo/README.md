@@ -1,18 +1,24 @@
-## Getting Started
+# 📊 Desafio Controle de Fluxo - Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto simples em Java para exercitar **controle de fluxo**, **entrada de dados**, uso de **exceções personalizadas** e criação de loops com `for`.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 💡 Descrição
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+O sistema solicita dois números inteiros via terminal:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Se o segundo número **for maior** que o primeiro, o programa calcula a diferença entre eles e executa um laço `for` imprimindo a contagem de 1 até o valor da diferença.
+- Caso o **primeiro número seja maior**, uma **exceção personalizada** é lançada informando o erro.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## 👨‍💻 Tecnologias Utilizadas
+Java 17 (ou qualquer versão 8+)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Terminal/Console
+
+Scanner para entrada de dados
+
+Exceções personalizadas
+
