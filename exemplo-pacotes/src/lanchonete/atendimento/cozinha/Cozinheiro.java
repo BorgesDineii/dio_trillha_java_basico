@@ -1,7 +1,5 @@
 package lanchonete.atendimento.cozinha;
 
-import lanchonete.atendimento.Atendente;
-
 public class Cozinheiro {
     public void adicionarLancheNoBalcao() {
         System.out.println("Adicionando lanche natural hamburger no balcão");
@@ -15,7 +13,6 @@ public class Cozinheiro {
     }
     public void prepararLanche() {
         System.out.println("Preparando lanche tipo hambuger.");
- 
     }
     public void prepararVitamina() {
         System.out.println("Preparando suco.");
@@ -38,9 +35,6 @@ public class Cozinheiro {
     }
     public void fritarIngredientesLanche() {
         System.out.println("Fritando a carne e ovo para o hamburger.");
-    }
-    public void pedirParaTrocarGas(Atendente meuAmigo) {
-        meuAmigo.trocarGas();
     }
     public void pedirParaTrocarGas(Almoxarife meuAmigo) {
         meuAmigo.trocarGas();

@@ -25,16 +25,12 @@ public class Estabelecimento {
         almoxarife.controlarEntrada();
         almoxarife.controleSaida();
         
-        // ações que somente o seu pacote cozinha precisa conhecer (default)
-        almoxarife.entregarIngredientes();
-        almoxarife.trocarGas();
 
         Atendente atendente = new Atendente();
         atendente.pegarLancheCozinha();
         atendente.receberPagamento();
         atendente.servindoMesa();
-        // ações que somente o seu pacote cozinha precisa conhecer (default)
-        atendente.trocarGas();
+
 
         Cliente cliente = new Cliente();
         cliente.escolherLanche();
@@ -48,7 +44,6 @@ public class Estabelecimento {
         cliente.consultarSaldoAplicativo();
 
         //ja pensou os clientes ouvindo que o gas acabou?
-        cozinheiro.pedirParaTrocarGas(atendente);
         cozinheiro.pedirParaTrocarGas(almoxarife);
 
     }
