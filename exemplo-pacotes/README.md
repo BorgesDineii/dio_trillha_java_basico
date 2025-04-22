@@ -1,18 +1,40 @@
-## Getting Started
+# 🧠 Visibilidade de Recursos em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório tem como objetivo demonstrar o que aprendi sobre **visibilidade de recursos** em projetos Java, com foco na **organização de pacotes e classes**.
 
-## Folder Structure
+## 📚 O que aprendi
 
-The workspace contains two folders by default, where:
+Aprendi que um projeto Java precisa ter os arquivos muito bem organizados para que os documentos possam ser facilmente encontrados e compreendidos por outros desenvolvedores (ou por mim mesmo no futuro).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Durante a aula, foi ensinado como criar **classes** e **pacotes**, mostrando o quanto isso é essencial para manter uma **estrutura hierárquica organizada** dentro da aplicação.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🧪 Projeto prático: Simulação de uma Lanchonete
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Como exercício, realizamos a construção de um sistema que simula o funcionamento de uma **lanchonete**, utilizando o conceito de visibilidade entre classes e pacotes. O projeto conta com diferentes tipos de usuários e entidades, como:
 
-## Dependency Management
+- 👨‍🍳 **Cozinheiro**
+- 🧾 **Atendente**
+- 🧍‍♂️ **Cliente**
+- 📦 **Almoxarifado**
+- 🏪 **Estabelecimento (geral)**
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Cada classe representa uma parte do sistema e suas ações estão organizadas conforme a **hierarquia de pacotes**, refletindo a **visibilidade apropriada** de cada componente do sistema.
+
+## 🗂️ Importância da organização por pacotes
+
+- Facilita a **manutenção** e **leitura do código**
+- Evita **conflitos de nomes**
+- Melhora a **modularidade**
+- Permite aplicar níveis de **visibilidade (public, private, protected, default)** com mais clareza
+- Ajuda na **reutilização de código**
+
+> Exemplo: Pacotes como `lanchonete.atendimento`, `lanchonete.cozinha`, `lanchonete.estoque` tornam o projeto muito mais legível e fácil de navegar.
+
+## ✅ Conclusão
+
+Esse aprendizado foi essencial para entender como a estrutura de um projeto influencia diretamente na sua **legibilidade, escalabilidade e organização**. A prática com o projeto da lanchonete me ajudou a visualizar de forma clara como aplicar esses conceitos na construção de sistemas reais.
+
+---
+
+📁 Repositório criado como parte do meu processo de aprendizado em Java.
+
