@@ -1,18 +1,21 @@
-## Getting Started
+# 🚀 Construtores em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório tem como objetivo apresentar de forma simples e prática o uso de **construtores em Java**, um dos fundamentos da programação orientada a objetos.
 
-## Folder Structure
+## 🧱 O que é um Construtor?
 
-The workspace contains two folders by default, where:
+Um **construtor** é um **método especial** usado para **inicializar objetos** de uma classe. Ele é chamado automaticamente **no momento da criação do objeto**, utilizando a palavra-chave `new`.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🧰 Tipos de Construtores
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### 1. 🔹 Construtor Padrão (sem parâmetros)
+Se você **não declarar nenhum construtor**, o Java cria um automaticamente.  
+Ou você pode criar manualmente:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```java
+public class Pessoa {
+    public Pessoa() {
+        // Código de inicialização
+        System.out.println("Objeto Pessoa criado!");
+    }
+}
