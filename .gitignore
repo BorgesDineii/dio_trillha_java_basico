@@ -1,3 +1,7 @@
+# Ignora arquivos do SonarLint
+.sonarlint/
+
+
 # Arquivos de build do Java
 *.class
 
