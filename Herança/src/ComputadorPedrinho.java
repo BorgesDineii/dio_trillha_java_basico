@@ -1,3 +1,8 @@
+import apps.FacebookMessenger;
+import apps.MSNMessenger;
+import apps.ServicoDeMensagemInstantanea;
+import apps.Telegram;
+
 public class ComputadorPedrinho {
     public static void main(String[] args) {
         //Poliformismo
@@ -6,7 +11,7 @@ public class ComputadorPedrinho {
          */
         ServicoDeMensagemInstantanea smi = null;
 
-        String appEscolhido = "msn";
+        String appEscolhido = "telegram";
 
         if(appEscolhido.equals("msn"))
             smi = new MSNMessenger();
@@ -17,8 +22,6 @@ public class ComputadorPedrinho {
 
         smi.enviarMensagem();
         smi.receberMensagem();
-        
-
         //abrindo MSN Messenger
         //System.out.println("MSN");
         //MSNMessenger msn = new MSNMessenger();

@@ -1,6 +1,11 @@
+package apps;
 public abstract class ServicoDeMensagemInstantanea {
     public abstract void enviarMensagem();
     public abstract void receberMensagem();
+
+    protected void validarConexaoAInternet() {
+        System.out.println("Validando se esta conectado a internet");
+    }
     //public void enviarMensagem() {
     //    validarConexaoAInternet();
     //    System.out.println("Enviando mensagem");
