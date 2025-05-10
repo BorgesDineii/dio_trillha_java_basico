@@ -8,6 +8,10 @@ public class Pet {
         this.clean = false;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public boolean isClean() {
         return clean;
     }
