@@ -22,3 +22,39 @@ Utilizando uma ferramenta de modelagem UML, estruturamos a relação entre class
 
 O projeto está dividido da seguinte forma:
 
+Desafio-lancamento-iphone/
+├── AparelhoTelefonico.java
+├── NavegadorInternet.java
+├── ReprodutorMusical.java
+├── Iphone.java
+└── README.md
+
+
+- **Interfaces**: Representam as funcionalidades do aparelho.
+- **Classe `Iphone`**: Implementa todas as interfaces, centralizando os comportamentos do dispositivo.
+
+---
+
+## ✅ Conceitos Aplicados
+
+- Interfaces e implementações múltiplas
+- Abstração de funcionalidades reais
+- Design modular e reutilização de código
+- Modelagem UML como etapa de planejamento
+- Organização e clareza no código Java
+
+---
+
+## 🚀 Resultado
+
+O desafio foi totalmente implementado. O código pode ser acessado neste repositório:
+
+🔗 [Ver código-fonte](https://github.com/BorgesDineii/dio_trillha_java_basico/tree/main/Desafio-lancamento-iphone)
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **BorgesDineii** como parte da formação Java da [Digital Innovation One (DIO)](https://www.dio.me/).
+
+
