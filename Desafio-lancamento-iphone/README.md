@@ -1,18 +1,24 @@
-## Getting Started
+# 📱 Desafio: Lançamento do iPhone
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório contém a implementação prática do desafio proposto no curso **"Trilha Java Básico"** da DIO, com foco em aplicar os conhecimentos de **Programação Orientada a Objetos (POO)**, **modelagem UML**, e **boas práticas de codificação em Java**.
 
-## Folder Structure
+## 🎯 Descrição do Desafio
 
-The workspace contains two folders by default, where:
+Com base no vídeo de **lançamento do iPhone (2017)**, foi proposto o seguinte desafio:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+> Elaborar a diagramação de classes e interfaces com a proposta de representar os papéis do iPhone como:
+>
+> - 🎵 **Reprodutor Musical**
+> - 📞 **Aparelho Telefônico**
+> - 🌐 **Navegador de Internet**
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Utilizando uma ferramenta de modelagem UML, estruturamos a relação entre classes e interfaces. Em seguida, os arquivos `.java` foram criados para representar essa estrutura orientada a objetos.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+🔗 Vídeo base: [Lançamento iPhone 2017](https://www.youtube.com/watch?v=1xQeXOz0Ncs)
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 📁 Estrutura do Projeto
+
+O projeto está dividido da seguinte forma:
+
